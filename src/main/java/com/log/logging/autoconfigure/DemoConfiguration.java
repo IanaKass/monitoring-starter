@@ -4,10 +4,10 @@ import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.context.annotation.Bean;
 
 @AutoConfiguration
-public class DemoConfiguration {
+class DemoConfiguration {
 
     @Bean
-    public DemoListener demoListener() {
+    DemoListener demoListener() {
         return new DemoListener();
     }
 }
